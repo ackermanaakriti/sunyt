@@ -1,0 +1,94 @@
+.topbar--container
+{
+    background-color: #0d476b; 
+    p 
+    {
+        color:white;
+        padding: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        margin:0px;
+    }
+
+}
+.contact--div
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color:white;
+    p 
+    {
+        margin: 2px;
+        padding: 8px 0px;
+    }
+}
+.contact--topbar
+{
+   background: #0d476b;
+}
+.socialmedia--container
+{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    gap:1em;
+    place-items: center;
+    padding: 8px 0px;
+    color:white;
+   
+
+}
+.logo--container
+{
+    display: flex;
+    justify-content: start;
+    img 
+    {
+        height: 70px;
+        padding: 10px 0px;
+    }
+}
+.ul--navlinks
+{
+    ul 
+    {
+        display: flex;
+        gap:1.5em;
+     
+        align-items: center;
+        padding: 19px;
+    }
+    li 
+    {
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        align-items: center;
+        display: flex;
+        gap:3px;
+        letter-spacing: 1px;
+    }
+}
+.logo--img 
+{
+    height: 90px;
+}
+.navlinks--container
+{
+    border:1px solid rgb(144, 33, 33);
+}
+.btn--navbar
+{
+    background: transparent;
+    color:black;
+    align-items: center;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: end;
+    border:3px solid black;
+    gap:10px;
+    border-radius: 25px;
+  
+}
